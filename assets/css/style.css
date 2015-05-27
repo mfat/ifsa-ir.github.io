@@ -10,14 +10,29 @@
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
-
-/* Import fonts */
-@import url(http://fonts.googleapis.com/css?family=Raleway:900,700,400);
+/* font */
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot');
+    src: url('../fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BYekan.woff') format('woff'),
+    url('../fonts/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'koodak';
+    src: url('../fonts/koodak.otf');
+    src: url('../fonts/koodak.otf') format('otf'),
+    url('../fonts/koodak.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * { 
 	margin: 0;
 	padding: 0px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'BYekan', sans-serif;
 } 
 body { 
 	background: #fff; 
@@ -26,7 +41,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'koodak', sans-serif;
 	font-weight: 700;
 }
 
@@ -34,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'BYekan', sans-serif;
 	font-weight: 300;
 	font-size: 18px; 
 	line-height: 28px;
